@@ -1,0 +1,121 @@
+﻿/*Body's background for all pages */
+#main-body {
+	border-color: #FFFFFF;
+	background-image: url(../pictures/bgrim.jpg);
+	background-color: #000000;
+	background-repeat: repeat-x;
+}
+/*Header displayed on each page*/
+#main-header {
+	position: absolute;
+	width: 85%;
+	height: 30%;
+	z-index: 1;
+	left: 10%;
+	top: 1%;
+	color: #EBEBF1;
+	font-size: 80px;
+	text-align: center;
+	font-family: Constantia;
+	border-bottom-style: none;
+}
+/*Navigation to other pages displayed under header*/
+#layer-nav {
+	position: absolute;
+	width: 85%;
+	height: 5px;
+	z-index: 1;
+	left: 9%;
+	top: 370px;
+	color: #FFFFFF;
+	text-align: left;
+	font-family: "Segoe UI";
+	font-size: x-large;
+}
+/*Container for slideshow box*/
+#layer-main {
+	width: 85%;
+	position: absolute;
+	z-index: 1;
+	left: 148px;
+	border-top-style: hidden;
+	top: 480px;
+	height: 60px;
+}
+/*Slideshow box*/
+#inner-main {
+	border-color: #CCCCCC;
+	border-style: groove;
+	background-image: url('pictures/homepicture.jpg');
+	height: 80%;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 33px;
+	display: none;
+}
+#slideshow-text {
+	color: #555555;
+	font-size: 20px;
+	position: absolute;
+	text-align: center;
+	left: .1%;
+	bottom: 58px;
+	width: 101%;
+	height: 35px;
+	font-family: "Segoe UI";
+}
+/*Slideshow images*/
+#main-image {
+	width: 70%;
+	height: 1%;
+	margin-left: 15%
+}
+.list-style {
+	margin-left: 21%;
+}
+.listp-style {
+	margin-left: 1%;
+	top: 400px;
+}
+.center-text {
+	text-align: center
+}
+/*Colors for navigation links*/
+a:link {
+	color: #555555;
+}
+a:visited {
+	color: #555555;
+}
+a:hover {
+	color: #4E4862;
+}
+/*Coding for the front page slideshow*/
+.visible {
+  animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+}
+@keyframes fadein {
+	from { opacity: 0; } 
+	to { opcaity: 1; }
+}
+/*Button code*/
+.btn-round {
+  border-radius: 50%;
+}
+.btn-previous {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 20px;
+}
+.btn-next {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 20px;
+}
+#button2-position {
+	float: right;
+}
+#button1-position {
+	float: left;
+}
